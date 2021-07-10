@@ -1,0 +1,9 @@
+## Author: Sappy (Alex)
+## Interface: 90100
+## Name: MountSourceTooltip
+## Notes: Adds mount sources to the tooltip of a buff when selecting a player.
+## SavedVariables: MountSourceTooltipDatabase
+## Title: MountSourceTooltip
+## Version: 0.0.0
+
+MountSourceTooltip.lua
