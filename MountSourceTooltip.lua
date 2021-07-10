@@ -34,11 +34,6 @@ e:SetScript("OnEvent", function(self, event, addon)
 		if (MountSourceTooltipDatabase == nil) then
 			MountSourceTooltipDatabase = {}
 			-- Druid's Travel Form isn't considered a mount, so let's add it manually.
-			MountSourceTooltipDatabase[0] = {
-				["name"] = "Travel Form",
-				["source"] = "|cFFFFD200Class: |r|cFFFF7C0ADruid|r |TINTERFACE\\ICONS\\CLASSICON_DRUID.BLP:0|t",
-				["spellID"] = 783,
-			}
 		end
 		
 		-- Let's not attempt to repull all the mounts on every addon load unless the build version
