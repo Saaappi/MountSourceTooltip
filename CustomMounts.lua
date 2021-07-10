@@ -20,6 +20,11 @@ e:SetScript("OnEvent", function(self, event, addon)
 				["source"] = "|cFFFFD200Class: |r|cFFFF7C0ADruid|r |TINTERFACE\\ICONS\\CLASSICON_DRUID.BLP:0|t",
 				["spellID"] = 783,
 			}
+			MountSourceTooltipDatabase[1503] = {
+				["name"] = "Hand of Nilganihmaht",
+				["source"] = "|cFFFFD200Zone: The Maw|r|n|cFFFFD200WH Guide: https://bit.ly/3dZVsX5|r",
+				["spellID"] = 354354,
+			}
 		end
 	end
 end)
