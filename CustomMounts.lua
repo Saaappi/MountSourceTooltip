@@ -19,7 +19,7 @@ e:SetScript("OnEvent", function(self, event, addon)
 			}
 			MountSourceTooltipDatabase[1039] = {
 				["name"] = "Mighty Caravan Brutosaur",
-				["source"] = "|cFFFFD200The Black Market Auction House|r",
+				["source"] = "|cFFFFD200Black Market Auction House|r",
 				["spellID"] = 264058,
 			}
 			MountSourceTooltipDatabase[885] = {
