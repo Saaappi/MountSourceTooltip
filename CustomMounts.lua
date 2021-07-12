@@ -1,11 +1,3 @@
---[[ TODO
-]]--
-
---[[
-	These variables are provided to the addon by Blizzard.
-		addonName	: This is self explanatory, but it's the name of the addon.
-		t			: This is an empty table. This is how the addon can communicate between files or local functions, sort of like traditional classes.
-]]--
 local addonName, t = ...
 local e = CreateFrame("Frame")
 
@@ -24,6 +16,16 @@ e:SetScript("OnEvent", function(self, event, addon)
 				["name"] = "Hand of Nilganihmaht",
 				["source"] = "|cFFFFD200Zone: The Maw|r|n|cFFFFD200WH Guide: https://bit.ly/3dZVsX5|r",
 				["spellID"] = 354354,
+			}
+			MountSourceTooltipDatabase[1039] = {
+				["name"] = "Mighty Caravan Brutosaur",
+				["source"] = "|cFFFFD200The Black Market Auction House|r",
+				["spellID"] = 264058,
+			}
+			MountSourceTooltipDatabase[885] = {
+				["name"] = "Highlord's Golden Charger",
+				["source"] = "|cFFFFD200Quest: Stirring in the Shadows|r|n|cFFFFD200Class: |cFFF48CBAPaladin|r |TINTERFACE\\ICONS\\CLASSICON_PALADIN.BLP:0|t",
+				["spellID"] = 231435,
 			}
 		end
 	end
